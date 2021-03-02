@@ -13,3 +13,13 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+function logTStrings(strings) {
+
+    for (let counter = 0; counter < strings.length; counter++) {
+    
+    if (strings[counter].startsWith("T")){
+      console.log(strings[counter]);
+    }
+  }
+}
+logTStrings(daysOfWeek);

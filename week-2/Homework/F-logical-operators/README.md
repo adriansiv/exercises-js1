@@ -16,6 +16,7 @@ function satisfiesRequirements(num) {
 }
 ```
 
+
 We can test expressions with logical operators in a node console too:
 
 ```sh
