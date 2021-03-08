@@ -8,8 +8,9 @@
   NOTE: don't include any element that is not a "family".
 */
 
-function colonisers() {
-
+function colonisers(family) {
+  familyWithA = family.filter(surname => surname.startsWith("A") && surname.length > 6);
+  return familyWithA;
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
